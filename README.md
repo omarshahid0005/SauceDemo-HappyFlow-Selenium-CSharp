@@ -111,9 +111,3 @@ These are the public demo credentials provided by saucedemo.com.
 
 **Test not showing in Test Explorer:** make sure `NUnit3TestAdapter` and `Microsoft.NET.Test.Sdk` are installed, then rebuild the solution.
 
-## Possible improvements
-
-- Move locators into Page Object classes (LoginPage, InventoryPage, CartPage, CheckoutPage)
-- Replace implicit waits with explicit waits using `WebDriverWait`
-- Add negative tests (locked-out user, invalid password, empty checkout fields)
-- Run headless in a CI pipeline such as GitHub Actions
